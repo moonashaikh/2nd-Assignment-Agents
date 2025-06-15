@@ -1,3 +1,5 @@
+
+
 # def main():
 #     print("Hello from first-agent!")
 
@@ -5,6 +7,9 @@
 # if __name__ == "__main__":
 #     main()
 #  install dotenv use command uv add python-dotenv
+
+
+#  Translator Agent using Sync
 from dotenv import load_dotenv
 import os
 from agents import Agent , AsyncOpenAI ,OpenAIChatCompletionsModel ,RunConfig ,Runner
